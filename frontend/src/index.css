@@ -1,0 +1,19 @@
+@import "remixicon/fonts/remixicon.css";
+
+:root {
+  --app-bg: #f5f5f3;
+  --sidebar-width: 240px;
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: var(--app-bg);
+}
+@media (max-width: 768px) {
+  body {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+  }
+}

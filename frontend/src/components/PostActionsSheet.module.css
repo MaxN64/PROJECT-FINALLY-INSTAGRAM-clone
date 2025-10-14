@@ -1,0 +1,51 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1500;
+  background: transparent;
+  display: grid;
+  place-items: center;
+  padding: 0;
+}
+
+.sheet {
+  width: 420px;
+  max-width: 96vw;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.4);
+}
+
+.item {
+  width: 100%;
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 14px 16px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.item:last-child {
+  border-bottom: 0;
+}
+.item:hover {
+  background: #fafafa;
+}
+
+.danger {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.sep {
+  height: 8px;
+  background: #f3f4f6;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+@media (max-width: 880px) {
+  .backdrop {
+    left: 0;
+  }
+}

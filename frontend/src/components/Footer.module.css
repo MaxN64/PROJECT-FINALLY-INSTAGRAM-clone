@@ -1,0 +1,55 @@
+.footer {
+  margin-top: 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid #dbdbdb;
+}
+
+.link {
+  text-decoration: none;
+  color: #8e8e8e;
+  font-size: 0.9rem;
+
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.link:hover {
+  color: #262626;
+}
+
+.link:active {
+  color: #262626;
+}
+
+.copy {
+  text-align: center;
+  font-size: 0.8rem;
+
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 480px) {
+  .nav {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .link {
+    font-size: 0.8rem;
+  }
+
+  .copy {
+    margin-bottom: 80px;
+    font-size: 0.75rem;
+  }
+}

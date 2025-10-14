@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.imageSection {
+  flex: 1;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+.image {
+  max-width: 580px;
+}
+
+@media (min-width: 1024px) {
+  .imageSection {
+    display: flex;
+  }
+}
+
+.image {
+  max-width: 380px;
+}
+
+.formWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 350px;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  font-family: "Grand Hotel", cursive;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(38, 132, 255, 0.4);
+}
+
+.button {
+  width: 100%;
+  padding: 0.6rem;
+  background: #0095f6;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #007ac1;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #dbdbdb;
+}
+
+.divider span {
+  margin: 0 1rem;
+  color: #8e8e8e;
+  font-size: 0.9rem;
+}
+
+.forgot {
+  display: block;
+  font-size: 0.875rem;
+  color: #00376b;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+.signup {
+  width: 100%;
+  max-width: 350px;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.signupLink {
+  color: #0095f6;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signupLink:hover {
+  text-decoration: underline;
+}

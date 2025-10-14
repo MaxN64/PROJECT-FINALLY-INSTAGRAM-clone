@@ -1,0 +1,289 @@
+.page {
+  display: flex;
+  min-height: 100vh;
+  background: #fafafa;
+  color: #111827;
+}
+
+.sidebar {
+  min-width: 240px;
+  border-right: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 48px 32px 32px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.backBtn {
+  padding: 0 18px;
+  height: 36px;
+  border-radius: 999px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #f3f4f6;
+  color: #111827;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.backBtn:hover {
+  background: #e5e7eb;
+}
+
+.backBtn:active {
+  transform: translateY(1px);
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.tabs {
+  display: flex;
+  align-items: baseline;
+  gap: 32px;
+  margin-bottom: 4px;
+  padding: 4px 0 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tabLink {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  text-decoration: none;
+  color: #6b7280;
+  font-weight: 500;
+  position: relative;
+  padding: 6px 0;
+  transition: color 0.15s ease;
+}
+
+.tabLink:hover {
+  color: #111827;
+}
+
+.tabLinkActive {
+  color: #111827;
+}
+
+.tabLinkActive::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -8px;
+  height: 2px;
+  background: #111827;
+  border-radius: 999px;
+}
+
+.tabNumber {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.tabLabel {
+  font-size: 16px;
+}
+
+.listCard {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  min-height: 320px;
+}
+
+.stateBox {
+  padding: 40px 16px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 15px;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileLink {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.profileLink:hover .username {
+  text-decoration: underline;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #f1f5f9;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.username {
+  font-weight: 600;
+}
+
+.name {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  border: 1px solid #bfdbfe;
+}
+
+.followBtn {
+  padding: 6px 18px;
+  border-radius: 999px;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #2563eb;
+  color: #ffffff;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.followBtn:hover:not(:disabled) {
+  background: #1d4ed8;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
+  transform: translateY(-1px);
+}
+
+.followBtn:disabled {
+  opacity: 0.7;
+  cursor: default;
+  transform: none;
+  box-shadow: none;
+}
+
+.followBtnMuted {
+  background: #f3f4f6;
+  color: #4b5563;
+  border: 1px solid #d1d5db;
+}
+
+.followBtnMuted:hover {
+  background: #f3f4f6;
+  box-shadow: none;
+}
+
+.footerSlot {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footerSlot > * {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+   .sidebar {
+    display: contents;
+  }
+  .main {
+    padding: 32px 16px;
+  }
+  .tabs {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .listCard {
+    padding: 16px;
+  }
+  .item {
+    align-items: flex-start;
+  }
+  .badge {
+    margin-top: 6px;
+  }
+  .tabs {
+    gap: 16px;
+    justify-content: space-between;
+  }
+  .tabNumber {
+    font-size: 15px;
+  }
+  .tabLabel {
+    font-size: 14px;
+  }
+  .actions {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .followBtn {
+    width: 100%;
+  }
+}
+

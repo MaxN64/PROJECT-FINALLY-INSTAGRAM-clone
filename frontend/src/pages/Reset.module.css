@@ -1,0 +1,157 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+  min-height: 100vh;
+  padding-top: 1rem;
+}
+
+.header {
+  width: 100%;
+  max-width: 350px;
+  background: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 1rem 0;
+}
+.logo {
+  font-family: "Grand Hotel", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.innerCard {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  max-width: 350px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.iconWrapper {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 1rem;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.subtitle {
+  font-size: 0.9rem;
+  color: #8e8e8e;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(38, 132, 255, 0.4);
+}
+.error {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin: -0.25rem 0 0;
+}
+.success {
+  color: #16a34a;
+  font-size: 0.85rem;
+  margin: -0.25rem 0 0;
+}
+.devHelper {
+  font-size: 0.75rem;
+  color: #6b7280;
+  word-break: break-all;
+}
+.devHelper a {
+  color: #2563eb;
+}
+.button {
+  padding: 0.6rem;
+  width: 100%;
+  background: #0095f6;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #007ac1;
+}
+
+.orDivider {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.orDivider::before,
+.orDivider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #dbdbdb;
+}
+.orDivider span {
+  margin: 0 1rem;
+  font-size: 0.9rem;
+  color: #8e8e8e;
+}
+
+.linkButton {
+  background: none;
+  border: none;
+  color: #0095f6;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  max-width: 350px;
+  background: #fff;
+  border-top: 1px solid #dbdbdb;
+  margin-top: 1rem;
+  text-align: center;
+}
+.backButton {
+  padding: 0.75rem;
+  background: none;
+  border: none;
+  color: #262626;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+}
+.imageICH {
+  margin-right: 100px;
+}
