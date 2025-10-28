@@ -39,6 +39,29 @@ CSS Modules — Kapselung der Styles.
 
 ![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/195154.png)
 
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/194812.png)
+
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/194826.png)
+
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/194842.png)
+
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/194907.png)
+
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/194920.png)
+
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/194932.png)
+
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/195002.png)
+
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/195014.png)
+
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/195031.png)
+
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/195041.png)
+
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/195100.png)
+
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/195114.png)
 
 
 Architektur und Verzeichnisstruktur
