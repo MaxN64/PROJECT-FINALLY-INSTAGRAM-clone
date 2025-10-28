@@ -37,7 +37,7 @@ socket.io-client — Realtime-Events (Benachrichtigungen/ Nachrichten).
 CSS Modules — Kapselung der Styles.
 
 
-![Превью проекта](https://github.com/MaxN64/Mini-Shop-Nextjs/blob/master/public/docs/113732.png)
+![Превью проекта](https://github.com/MaxN64/PROJECT-FINALLY-INSTAGRAM-clone/blob/master/frontend/public/docs/195154.png)
 
 
 
